@@ -73,7 +73,18 @@ public class Automobil {
             System.out.println("Automobil mora biti upaljen.");
         } else {
             trenutnaBrzina += ubrzanje;
-            System.out.println("Trenutna brzina automobila je: " + trenutnaBrzina + "km/h.");
+            System.out.println("Trenutna brzina: " + trenutnaBrzina + "km/h.");
+        }
+    }
+
+    public void uspori(int usporenje) {
+        if (!upaljeno) {
+            System.out.println("Automobil nije u pokretu.");
+        } else if (usporenje>=trenutnaBrzina) {
+            trenutnaBrzina = 0;
+        } else {
+            trenutnaBrzina -= usporenje;
+            System.out.println("Trenutna brzina: " + trenutnaBrzina + "km/h.");
         }
     }
 }

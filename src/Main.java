@@ -12,5 +12,8 @@ public class Main {
         auto1.upali();
         auto1.ubrzaj(60);
         auto1.ubrzaj(7);
+        auto1.uspori(30);
+        auto1.ugasi();
+
     }
 }
