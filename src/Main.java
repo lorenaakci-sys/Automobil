@@ -6,6 +6,7 @@ public class Main {
 
         auto1.upali();
         auto1.upali();
-
+        auto1.ugasi();
+        auto1.ugasi();
     }
 }

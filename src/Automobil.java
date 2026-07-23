@@ -56,4 +56,15 @@ public class Automobil {
             upaljeno = true;
         }
     }
+
+    public void ugasi() {
+        if (trenutnaBrzina != 0) {
+            System.out.println("Automobil se ne može ugasiti u pokretu.");
+        } else if (!upaljeno) {
+            System.out.println("Automobil je već ugašen.");
+        } else {
+            upaljeno = false;
+            System.out.println("Automobil se gasi.");
+        }
+    }
 }
