@@ -8,5 +8,9 @@ public class Main {
         auto1.upali();
         auto1.ugasi();
         auto1.ugasi();
+        auto1.ubrzaj(60);
+        auto1.upali();
+        auto1.ubrzaj(60);
+        auto1.ubrzaj(7);
     }
 }

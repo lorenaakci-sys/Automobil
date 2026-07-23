@@ -67,4 +67,13 @@ public class Automobil {
             System.out.println("Automobil se gasi.");
         }
     }
+
+    public void ubrzaj(int ubrzanje) {
+        if (!upaljeno) {
+            System.out.println("Automobil mora biti upaljen.");
+        } else {
+            trenutnaBrzina += ubrzanje;
+            System.out.println("Trenutna brzina automobila je: " + trenutnaBrzina + "km/h.");
+        }
+    }
 }
