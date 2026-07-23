@@ -13,7 +13,8 @@ public class Main {
         auto1.ubrzaj(60);
         auto1.ubrzaj(7);
         auto1.uspori(30);
-        auto1.ugasi();
+        auto1.zaustavi();
+        auto1.zaustavi();
 
     }
 }

@@ -87,4 +87,13 @@ public class Automobil {
             System.out.println("Trenutna brzina: " + trenutnaBrzina + "km/h.");
         }
     }
+
+    public void zaustavi() {
+        if (trenutnaBrzina != 0) {
+            trenutnaBrzina = 0;
+            System.out.println("Automobil se zaustavlja.");
+        } else {
+            System.out.println("Automobil nije u pokretu.");
+        }
+    }
 }
