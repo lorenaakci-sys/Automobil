@@ -48,5 +48,12 @@ public class Automobil {
         this.registracija = registracija;
     }
 
-
+    public void upali() {
+        if (upaljeno) {
+            System.out.println("Automobil je već upaljen.");
+        } else {
+            System.out.println("Automobil se pali.");
+            upaljeno = true;
+        }
+    }
 }
