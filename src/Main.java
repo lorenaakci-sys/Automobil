@@ -8,13 +8,10 @@ public class Main {
         auto1.upali();
         auto1.ugasi();
         auto1.ugasi();
-        auto1.ubrzaj(60);
         auto1.upali();
         auto1.ubrzaj(60);
-        auto1.ubrzaj(7);
-        auto1.uspori(30);
-        auto1.zaustavi();
-        auto1.zaustavi();
+        System.out.println(auto1.isUpaljeno());
+        System.out.println(auto1.getTrenutnaBrzina());
 
     }
 }
